@@ -1,0 +1,20 @@
+{
+  "name": "eny-device-driver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "device.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^4.2.0",
+    "hapi": "^16.1.0",
+    "joi": "^10.2.0",
+    "node-hue-api": "^2.4.1",
+    "serialport": "^4.0.7",
+    "wemo-client": "^0.11.2",
+    "wreck": "^10.0.0"
+  }
+}

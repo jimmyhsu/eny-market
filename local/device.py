@@ -23,7 +23,7 @@ def post_ifttt(event, key, eny_obj, mode):
     }
     req = urllib2.Request(uri)
     req.add_header('Content-Type', 'application/json')
-    print('Post to IFTTT : {0}'.format(params))
+    print('Post to app server : {0}'.format(params))
     res = urllib2.urlopen(req, data=json.dumps(params))
     print(res.read())
 
